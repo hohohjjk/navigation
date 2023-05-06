@@ -1,0 +1,90 @@
+body 
+{ background-color:turquoise;
+  margin: 0;}
+
+a.active:hover
+{background-color:Yellow;
+color:red;}
+ul
+{list-style-type:none;}
+li
+{display:block;
+width:100px;}
+li a:hover
+{color:red;
+font-size:18pt;
+font-weight:bold;
+padding:3pt;
+background-color:green;}
+ul li a.active
+{cursor:progress;}
+ul li a
+{cursor:zoom-in;}
+.sample
+{background-color:gray;
+padding:2pt;}
+
+
+
+.sample1 .dropdown
+{position:relative;
+display:inline;}
+
+
+.sample1 .dropdown-content
+{display:none;
+position:absolute;
+background-color:orange;
+
+
+min-width:100px;
+z-index:1;
+}
+
+.sample1 .dropdown:hover .dropdown-content
+{
+display:inline;}
+
+
+
+.sample2 .dropdown
+{position:relative;
+display:inline;}
+
+.sample2 .dropdown-content
+{display:none;
+position:absolute;
+background-color:orange;
+min-width:100px;
+z-index:1;
+}
+
+.sample2 .dropdown:hover .dropdown-content
+{
+display:inline;}
+
+
+.sample3 .dropdown
+{position:relative;
+display:inline;}
+
+.sample3 .dropdown-content
+{display:none;
+position:absolute;
+background-color:orange;
+min-width:100px;
+z-index:1;
+}
+
+.sample3 .dropdown:hover .dropdown-content
+{
+display:inline;}
+
+
+
+
+
+
+
+
+
